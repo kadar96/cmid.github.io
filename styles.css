@@ -1,0 +1,132 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #E6E6E6;
+	background-size: cover;
+}
+#logo{
+	position: absolute;
+	top: 10px; /*l'espace qui sépare du haut*/
+	left: 150px; /*l'espace qui sépare la marge gauche*/
+}
+#nom{
+	position: absolute;
+	left: 215px;
+	margin-top: 3px;
+	color: blue;
+}
+#nom2{
+	position: absolute;
+	left: 215px;
+	top: 12px;
+	color: blue;
+}
+#nom3{
+	position: absolute;
+	left: 215px;
+	top: 30px;
+	color: blue;
+}
+
+
+#menunav{
+	position: absolute;
+	top: 80px;
+	left: 150px;
+	width: 1100px;
+	height: 50px;
+	background: linear-gradient(#095CF6,blue);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#onglet{
+	margin-right: auto;
+	margin-left: auto;
+	display: table;
+	padding: 0;
+}
+#onglet li {
+	display: table-cell;
+	width: 200px;
+}
+
+#onglet a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+
+}
+#onglet li:hover a{
+	color: black;
+	background: rgba(255,255,255,0.1);
+	
+}
+
+#search_bar{
+	color: black;
+    position: absolute;
+    left:70%;
+    top: 1%;
+    background: white;
+    padding: 0;
+    height: 40px;
+    border-bottom: blue solid 3px;
+    border-radius: 70px;
+    opacity: 0.7;
+}
+#txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: black;
+    font-size: 16px;
+    transition: 0.8s;
+    line-height: 40px;
+    width: 0;
+    
+}
+/*img{
+    height: 30px;
+    width: 30;
+}*/
+#btn{
+    height: 36px;
+    width: 36px;
+    background-color: blue;
+    border: blue solid 3px;
+    border-radius:50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+
+}
+
+#search_bar:hover > #txt{
+    margin: 0 12px;
+    width: 240px;
+}
+
+#search_bar:hover > #btn{
+    transform: rotate(3turn);
+    transition: 0.8s;
+}
+#titre1{
+	position: absolute;
+	top: 50%;
+	
+}
+#menslgl{
+	position: absolute;
+	top: 690px;
+	left: 150px;
+	width: 1100px;
+	height: 50px;
+	background: linear-gradient(#095CF6,blue);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
